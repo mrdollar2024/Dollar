@@ -186,20 +186,7 @@ let arr = [1, 2, 3, 4, 5, 6, 7, 8]
 Dollar.fetch(arr, 100)
 => nil
 
-Dollar.fetch(arr, 100, orElse: 42)
-=> 42
 
-Dollar.fetch(arr, -1)
-=> 8
-```
-
-### fill - `Dollar.fill`
-
-Fills elements of array with value from start up to, but not including, end. This method mutates array.
-
-```swift
-var arr = Array<Int>(count: 5, repeatedValue: 1)
-Dollar.fill(&arr, withElem: 42)
 => [42, 42, 42, 42, 42]
 
 var arr = Array<Int>(count: 5, repeatedValue: 1)
