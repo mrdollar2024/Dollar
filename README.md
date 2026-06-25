@@ -1,19 +1,4 @@
 
-  - [Object](#object)
-  - [Function](#function)
-  - [Chaining](#chaining)
-- [Contributing](#contributing)
-
-# Setup #
-
-## Using [cocoapods](http://cocoapods.org/) version 0.36.x or greater
-
-Add `pod 'Dollar'` to your `Podfile` and run `pod install`. Add `use_frameworks!` to the end of the `Podfile`. Also checkout this [sample app](https://github.com/ankurp/DollarPodApp).
-
-## Using [Swift Package Manager](https://github.com/apple/swift-package-manager)
-
-Add the following dependency `.Package(url: "https://github.com/ankurp/Dollar", majorVersion: 7, minor: 1)` to your `Package.swift` file and then run `swift build`. Requires swift version 2.2 or greater that you can install from https://swift.org
-
 ## Using `git submodule`
 
 1. If you are using git then add Dollar as a submodule using `git submodule add https://github.com/ankurp/Dollar.git`. If not using git download the project using `git clone https://github.com/ankurp/Dollar.git` in your project folder.
