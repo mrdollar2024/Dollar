@@ -25,13 +25,6 @@ Still stuck. Then checkout this screencast on [how to import](http://recordit.co
 
 # Dollar Usage #
 
-## Array ##
-
-### at - `Dollar.at`
-
-Creates an array of elements from the specified indexes, or keys, of the collection. Indexes may be specified as individual arguments or as arrays of indexes.
-
-```swift
 Dollar.at(["ant", "bat", "cat", "dog", "egg"], indexes: 0, 2, 4) 
 => ["ant", "cat", "egg"]
 ```
