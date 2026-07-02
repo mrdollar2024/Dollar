@@ -6,41 +6,7 @@
 3. In Xcode, navigate to the target configuration window by clicking on the blue project icon, and selecting the application target under the "Targets" heading in the sidebar.
 4. In the tab bar at the top of that window, open the "Build Phases" panel.
 5. Expand the "Link Binary with Libraries" group, and add Dollar.framework.
-6. In your project file `import Dollar` and you can call all of the helper functions.
-
-Still stuck. Then checkout this screencast on [how to import](http://recordit.co/0gQiCSEREF)
-
-## Support for Xcode and Swift
- Using [`Cocoa Pods`](https://github.com/ankurp/DollarPodApp)
-* Using [`Swift Package Manager`](https://github.com/ankurp/DollarSwiftPackage)
-* Using [`git submodule`](https://github.com/ankurp/DollarSubmoduleApp)
-
-## Communication ##
-
-- If you **need help**, use [gitter.im](https://gitter.im/ankurp/Dollar) or post a question on [Stack Overflow](http://stackoverflow.com/questions/tagged/dollar.swift) with tag `dollar.swift`.
-- If you'd like to **ask a general question**, use [Stack Overflow](http://stackoverflow.com/questions/tagged/dollar.swift).
-- If you **found a bug**, open an issue.
-- If you **have a feature request**, open an issue.
-- If you **want to contribute**, submit a pull request.
-
-# Dollar Usage #
-
-Dollar.at(["ant", "bat", "cat", "dog", "egg"], indexes: 0, 2, 4) 
-=> ["ant", "cat", "egg"]
-```
-
-### chunk - `Dollar.chunk`
-
-Creates an array of elements split into groups the length of size. If array can’t be split evenly, the final chunk will be the remaining elements.
-
-```swift
-Dollar.chunk([1, 2, 3, 4], size: 2)
-=> [[1, 2], [3, 4]]
-
-Dollar.chunk([1, 2, 3, 4], size: 3)
-=> [[1, 2, 3], [4]]
-```
-
+6
 ### compact - `Dollar.compact`
 
 Creates an array with all nil values removed.
