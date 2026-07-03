@@ -3,23 +3,7 @@
 
 1. If you are using git then add Dollar as a submodule using `git submodule add https://github.com/ankurp/Dollar.git`. If not using git download the project using `git clone https://github.com/ankurp/Dollar.git` in your project folder.
 2. Open the `Dollar` folder. Drag Dollar.xcodeproj, inside the Dollar folder, into the file navigator of your Xcode project.
-3. In Xcode, navigate to the target configuration window by clicking on the blue project icon, and selecting the application target under the "Targets" heading in the sidebar.
-4. In the tab bar at the top of that window, open the "Build Phases" panel.
-5. Expand the "Link Binary with Libraries" group, and add Dollar.framework.
-6
-### compact - `Dollar.compact`
-
-Creates an array with all nil values removed.
-
-```swift
-Dollar.compact([3, nil, 4, 5]) 
-=> [3, 4, 5]
-
-Dollar.compact([nil, nil]) as NSObject[] 
-=> []
-```
-
-### contains - `Dollar.contains`
+3. In Xco
 
 Checks if a given value is present in the array.
 
