@@ -1,38 +1,4 @@
-
-## Using `git submodule`
-
-1. If you are using git then add Dollar as a submodule using `git submodule add https://github.com/ankurp/Dollar.git`. If not using git download the project using `git clone https://github.com/ankurp/Dollar.git` in your project folder.
-2. Open the `Dollar` folder. Drag Dollar.xcodeproj, inside the Dollar folder, into the file navigator of your Xcode project.
-3. In Xco
-
-Checks if a given value is present in the array.
-
-```swift
-Dollar.contains([1, 2, 3, 1, 2, 3], value: 2) 
-=> true
-
-Dollar.contains([1, 2, 3, 1, 2, 3], value: 10) 
-=> false
-```
-
-### cycle - `Dollar.cycle`
-
-Cycles through the array definetly or indefinetly passing each element into the callback function. The second parameter is to specify how many times to cycle through the array. If left out it will cycle indefinetly.
-
-```swift
-Dollar.cycle([1, 2, 3], 2) {
-  print($0)
-}
-// Prints the following
-123123
-```
-
-### difference - `Dollar.difference`
-
-Creates an array excluding all values of the provided arrays
-
-```swift
-Dollar.difference([1, 2, 3, 4, 5], [5, 2, 10]) 
+45665
 => [1, 3, 4]
 ```
 
