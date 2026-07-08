@@ -1,38 +1,3 @@
-45665
-=> [1, 3, 4]
-```
-
-### each - `Dollar.each`
-
-Passes each element in the array to the callback
-
-```swift
-Dollar.each(["A", "B"]) { 
-  print("Value \($0)")
-}
-=> ["A", "B"]
-
-Dollar.each(["A", "B"]) { (index, elem) in
-  print("\(index) - \(elem)")
-}
-=> ["0 - A", "1 - B"]
-```
-
-### every - `Dollar.every`
-
-Checks if the given callback returns true value for all items in the array.
-
-```swift
-Dollar.every([1, 2, 3, 4], callback: { $0 < 20 }) 
-=> true
-
-Dollar.every([1, 2, 3, 4]) { $0 == 1 } 
-=> false
-```
-
-### factorial `Dollar.factorial`
-
-Returns factorial of integer
 
 ```swift
 Dollar.factorial(3)
