@@ -1,36 +1,4 @@
-fgghfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgfgh
-result
-=> 1
-```
 
-### first - `Dollar.first(array: AnyObject[])`
-
-Gets the first element in the array.
-
-```swift
-Dollar.first([1, 2, 3, 4])
-=> 1
-
-Dollar.first([]) 
-=> nil
-```
-### groupBy `Dollar.groupBy`
-
-This method returns a dictionary of values grouped by the value returned by a callback.
-
-``` swift
-Dollar.groupBy([1, 2, 3, 4, 5], callback: {$0 % 2})
-=> [0: [2, 4], 1: [1, 3]]
-
-Dollar.groupBy(["strings", "with", "different", lengths"], callback: {$0.characters.count})
-=> [7: ["strings", "lengths"], 9: ["different"], 4: ["With"]]
-```
-
-### second - `Dollar.second(array: AnyObject[])`
-
-Gets the second element in the array.
-
-```swift
 Dollar.second([1, 2, 3, 4])
 => 2
 
