@@ -1,16 +1,4 @@
-
-Dollar.second([1, 2, 3, 4])
-=> 2
-
-Dollar.second([1]) 
-=> nil
-
-Dollar.second([])
-=> nil
-```
-
-### flatMap - `Dollar.flatMap`
-
+ghj
 Maps a function that converts elements to a list and then concatenates them.
 
 ```swift
