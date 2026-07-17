@@ -1,13 +1,4 @@
-ghj
-Maps a function that converts elements to a list and then concatenates them.
-
-```swift
-let values = [2, 3, 4, 5, 6, 7]
-Dollar.flatMap(values) { [$0, $0] }
-=> [2, 2, 3, 3, 4, 4, 5, 5, 6, 6, 7, 7]
-```
-
-### flatMap - `Dollar.flatMap`
+45
 
 Maps a function that converts a type to an Optional over an Optional, and then returns a single-level Optional.
 
