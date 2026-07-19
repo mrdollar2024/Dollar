@@ -1,12 +1,4 @@
-45
 
-Maps a function that converts a type to an Optional over an Optional, and then returns a single-level Optional.
-
-
-```swift
-let url = NSURL(string: "https://apple.com/swift")
-Dollar.flatMap(url) { $0.lastPathComponent }
-=> Optional("swift")
 ```
 
 *Note*: This is the same behavior as Optional chaining.
