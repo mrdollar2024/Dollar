@@ -1,16 +1,4 @@
 
-```
-
-*Note*: This is the same behavior as Optional chaining.
-The code above translates to
-```swift
-NSURL(string: "https://apple.com/swift/")?.lastPathComponent
-=> Optional("swift")
-```
-
-### flatten - `Dollar.flatten`
-
-Flattens a nested array of any depth.
 
 ```swift
 Dollar.flatten([[3], 4, 5]) as Int[] 
