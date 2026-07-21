@@ -1,17 +1,4 @@
-
-
-```swift
-Dollar.flatten([[3], 4, 5]) as Int[] 
-=> [3, 4, 5]
-
-Dollar.flatten([[3], "Hello", 5]) as NSObject[] 
-=> [3, "Hello", 5]
-
-Dollar.flatten([[[3], 4], 5]) as Int[] 
-=> [3, 4, 5]
-```
-
-### frequencies - `Dollar.frequencies`
+df
 This method returns a dictionary of values in an array mapping to the total number of occurrences in the array. If passed a function it returns a frequency table of the results of the given function on the arrays elements.
 
 ```swift
