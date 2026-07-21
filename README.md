@@ -1,19 +1,6 @@
 df
 This method returns a dictionary of values in an array mapping to the total number of occurrences in the array. If passed a function it returns a frequency table of the results of the given function on the arrays elements.
 
-```swift
-Dollar.frequencies(["a", "a", "b", "c", "a", "b"]) 
-=> ["a": 3, "b": 2, "c": 1]
-
-Dollar.frequencies([1, 2, 3, 4, 5]) { $0 % 2 == 0 }
-=> [false: 3, true: 2]
-```
-
-### gcd `Dollar.gcd`
-
-GCD function return greatest common denominator with number passed
-
-```swift
 Dollar.gcd(3, 10)
 => 1
 
