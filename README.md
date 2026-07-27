@@ -1,16 +1,4 @@
-df
-This method returns a dictionary of values in an array mapping to the total number of occurrences in the array. If passed a function it returns a frequency table of the results of the given function on the arrays elements.
-
-Dollar.gcd(3, 10)
-=> 1
-
-Dollar.gcd(3, 9)
-=> 3
-```
-
-### indexOf - `Dollar.indexOf`
-
-Gets the index at which the first occurrence of value is found.
+e of value is found.
 
 ```swift
 Dollar.indexOf([1, 2, 3, 1, 2, 3], value: 2) 
