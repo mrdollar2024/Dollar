@@ -1,27 +1,4 @@
-e of value is found.
 
-```swift
-Dollar.indexOf([1, 2, 3, 1, 2, 3], value: 2) 
-=> 1
-
-Dollar.indexOf(["A", "B", "C"], value: "B") 
-=> 1
-
-Dollar.indexOf([3, 4, 5], value: 5) 
-=> 2
-
-Dollar.indexOf([3, 4, 5], value: 3) 
-=> 0
-
-Dollar.indexOf([3, 4, 5], value: 2) 
-=> nil
-```
-
-### initial - `Dollar.initial`
-
-Gets all but the last element or last n elements of an array.
-
-```swift
 Dollar.initial([3, 4, 5]) 
 => [3, 4]
 
