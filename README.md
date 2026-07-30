@@ -1,32 +1,4 @@
-
-Dollar.initial([3, 4, 5]) 
-=> [3, 4]
-
-Dollar.initial([3, 4, 5], numElements: 2) 
-=> [3]
-```
-
-### intersection - `Dollar.intersection`
-
-Creates an array of unique values present in all provided arrays.
-
-```swift
-Dollar.intersection([1, 2, 3], [5, 2, 1, 4], [2, 1]) 
-=> [1, 2]
-```
-
-### it-isIn `Dollar.it<T: Comparable>(i: T, isIn range: Range<T>)`
-
-Returns true if i is in interval or range
-
-```swift
-Dollar.it("c", isIn: "a"..."z")
-=> true
-
-Dollar.it("z", isIn: "a"..<"z")
-=> false
-
-Dollar.it(1, isIn: -1.0...10.0)
+321
 => true
 ```
 
