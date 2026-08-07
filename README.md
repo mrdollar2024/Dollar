@@ -1,17 +1,3 @@
-321
-=> true
-```
-
-### last - `Dollar.last`
-
-Gets the last element from the array.
-
-```swift
-Dollar.last([3, 4, 5]) 
-=> 5
-```
-
-### lastIndexOf - `Dollar.lastIndexOf`
 
 Gets the index at which the last occurrence of value is found.
 
