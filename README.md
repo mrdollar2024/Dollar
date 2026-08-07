@@ -1,21 +1,4 @@
-ghngh
-
-### rest - `Dollar.rest`
-
-The opposite of initial this method gets all but the first element or first n elements of an array.
-
-```swift
-Dollar.rest([3, 4, 5]) 
-=> [4, 5]
-
-Dollar.rest([3, 4, 5], numElements: 2) 
-=> [5]
-```
-
-### map - `Dollar.map`
-
-Maps each element to new value based on the map function passed
-
+852
 ```swift
 Dollar.map([1, 2, 3, 4]) { 
   $0 * 2
