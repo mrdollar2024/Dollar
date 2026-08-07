@@ -1,22 +1,4 @@
-
-Gets the index at which the last occurrence of value is found.
-
-```swift
-Dollar.lastIndexOf([1, 2, 3, 1, 2, 3], value: 2) 
-=> 4
-```
-
-### lcm `Dollar.lcm`
-
-LCM method return least common multiple with number passed
-
-```swift
-Dollar.lcm(3, 10)
-=> 30
-
-Dollar.lcm(3, 9)
-=> 9
-```
+ghngh
 
 ### rest - `Dollar.rest`
 
