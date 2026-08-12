@@ -1,48 +1,4 @@
-852
-```swift
-Dollar.map([1, 2, 3, 4]) { 
-  $0 * 2
-}
-=> [2, 4, 6, 8]
-```
-
-### min - `Dollar.min`
-
-Retrieves the minimum value in an array.
-
-```swift
-Dollar.min([2, 1, 2, 3, 4]) 
-=> 1
-```
-
-### max - `Dollar.max`
-
-Retrieves the maximum value in an array.
-
-```swift
-Dollar.max([1, 2, 3, 4, 2, 1]) 
-=> 4
-```
-
-### pluck - `Dollar.pluck`
-
-Retrieves the value of a specified property from all elements in the array.
-
-```swift
-let arr = [["age": 20], ["age": 30], ["age": 40]]
-Dollar.pluck(arr, value: "age") 
-=> [20, 30, 40]
-```
-
-### pull - `Dollar.pull`
-
-Removes all provided values from the given array.
-
-```swift
-Dollar.pull([3, 4, 5, 3, 5], values: 3, 5) 
-=> [4]
-
-Dollar.pull([3, 4, 5, 3, 5], values: 4) 
+sfd
 => [3, 5, 3, 5]
 
 Dollar.pull([3, 4, 5, 3, 5], values: 3, 4, 5) 
