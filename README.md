@@ -1,13 +1,3 @@
-sfd
-=> [3, 5, 3, 5]
-
-Dollar.pull([3, 4, 5, 3, 5], values: 3, 4, 5) 
-=> []
-```
-
-### pullAt - `Dollar.pullAt`
-
-Removes all provided values from the given array at the given indices
 
 ```swift
 let arr = [10, 20, 30, 40, 50]
