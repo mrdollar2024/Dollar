@@ -1,29 +1,4 @@
-
-```swift
-let arr = [10, 20, 30, 40, 50]
-Dollar.pullAt(arr, indices: 1, 2, 3)
-```
-
-### range - `Dollar.range`
-
-Creates an array of numbers (positive and/or negative) progressing from start up to but not including end.
-
-```swift
-Dollar.range(4) 
-=> [0, 1, 2, 3]
-
-Dollar.range(from: 1, to: 5) 
-=> [1, 2, 3, 4]
-
-Dollar.range(from: 0, to: 20, incrementBy: 5) 
-=> [0, 5, 10, 15]
-
-Dollar.range(from: 1, through: 5)
-=> [1, 2, 3, 4, 5]
-
-Dollar.range(from: 0, through: 20, incrementBy: 5)
-=> [0, 5, 10, 15, 20]
-```
+sdfsfsfsdf
 
 ### reduce - `Dollar.reduce`
 
