@@ -1,25 +1,5 @@
-123
-=> true
-```
-
-### sequence - `Dollar.sequence`
-
-Creates an array of an arbitrary sequence. Especially useful with builtin ranges.
-
-```swift
-Dollar.sequence(0..4) 
-=> [0, 1, 2, 3]
-
-Dollar.sequence(-2.0..2.0) 
-=> [-2.0, -1.0, 0.0, 1.0]
-
-Dollar.sequence((0..20).by(5)) 
-=> [0, 5, 10, 15]
-
-Dollar.sequence("abc") 
-=> ["a", "b", "c"]
-```
-### remove - `Dollar.remove`
+HGF 
+ DFGS
 
 Removes an element from array.
 ```swift
