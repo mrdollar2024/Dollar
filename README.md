@@ -1,23 +1,4 @@
-sdfsfsfsdf
-
-### reduce - `Dollar.reduce`
-
-Reduce function that will resolve to one value after performing combine function on all elements
-
-```swift
-Dollar.reduce([1, 2, 3], initial: 0) { (total, element) in
-    total + element
-}
-=> 6
-```
-
-### sample - `Dollar.sample`
-
-Returns a sample item from the array
-
-```swift
-let arr: [Int] = [2, 1, 2, 3, 4]
-Dollar.contains(arr, value: Dollar.sample(arr))
+123
 => true
 ```
 
