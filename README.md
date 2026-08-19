@@ -1,19 +1,4 @@
-HGF 
- DFGS
 
-Removes an element from array.
-```swift
-Dollar.remove(["A", "B", "C", "D"], value: "B")
-=> ["A", "C", "D"]
-```
-
-### remove - `Dollar.remove`
-
-Removes all elements from an array that the `callback` returns true.
-
-```swift
-let result = Dollar.remove([1, 2, 3, 4, 5, 6]) { 
-  $0 == 2 || $0 == 3 
 }
 result
 => [1, 4, 5, 6]
