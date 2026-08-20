@@ -1,24 +1,7 @@
-
-}
-result
-=> [1, 4, 5, 6]
-```
-
-### shuffle - `Dollar.shuffle`
-
-Shuffles and returns the new shuffled array
-
-```swift
-let result = Dollar.shuffle([1, 2, 3, 4, 5, 6])
-result
-=> [4, 1, 3, 5, 6, 2]
-```
-
-### size - `Dollar.size`
-
-Returns size of the array
-
-```swift
+fgh 
+ fgx
+ 54
+ 
 Dollar.size(["a", "b", "c")
 => 3
 ```
