@@ -1,23 +1,4 @@
-fgh 
- fgx
- 54
- 
-Dollar.size(["a", "b", "c")
-=> 3
-```
-
-### sortedIndex - `Dollar.sortedIndex`
-
-Gives the smallest index at which a value should be inserted into a given the array is sorted.
-
-```swift
-Dollar.sortedIndex([3, 4, 6, 10], value: 5)
-=> 2
-
-Dollar.sortedIndex([10, 20, 30, 50], value: 40)
-=> 3
-```
-
+951
 ### transpose - `Dollar.transpose`
 
 Creates a tranposed matrix.
