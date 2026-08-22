@@ -1,21 +1,4 @@
-951
-### transpose - `Dollar.transpose`
-
-Creates a tranposed matrix.
-
-```swift
-Dollar.transpose([[1, 2, 3], [4, 5, 6]])
-=> [[1, 4], [2, 5], [3, 6]]
-```
-
-### union - `Dollar.union`
-
-Creates an array of unique values, in order, of the provided arrays.
-
-```swift
-Dollar.union([1, 2, 3], [5, 2, 1, 4], [2, 1]) 
-=> [1, 2, 3, 5, 4]
-```
+dfxv
 
 ### merge - `Dollar.merge`
 
