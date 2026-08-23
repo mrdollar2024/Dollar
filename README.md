@@ -1,23 +1,4 @@
-dfxv
-
-### merge - `Dollar.merge`
-
-Creates an array of all values, including duplicates, of the arrays in the order they are provided.
-
-```swift
-let arr = [1, 5]
-let arr2 = [2, 4]
-let arr3 = [5, 6]
-let result = Dollar.merge(arr, arr2, arr3)
-result
-=> [1, 5, 2, 4, 5, 6]
-```
-
-### uniq - `Dollar.uniq`
-
-Creates a duplicate-value-free version of an array.
-
-```swift
+dfghdrftg5
 Dollar.uniq([1, 2, 1, 3, 1])
 => [1, 2, 3]
 
