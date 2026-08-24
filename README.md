@@ -1,28 +1,5 @@
-dfghdrftg5
-Dollar.uniq([1, 2, 1, 3, 1])
-=> [1, 2, 3]
-
-Dollar.uniq([1, 2.5, 3, 1.5, 2, 3.5]) {
-  floor($0)
-}
-=> [1, 2.5, 3]
-```
-
-### without - `Dollar.without`
-
-Creates an array excluding all provided values.
-
-```swift
-Dollar.without([3, 4, 5, 3, 5], values: 3, 5)
-=> [4]
-
-Dollar.without([3, 4, 5, 3, 5], values: 4)
-=> [3, 5, 3, 5]
-
-Dollar.without([3, 4, 5, 3, 5], values: 3, 4, 5)
-=> []
-```
-
+12
+3
 ### xor - `Dollar.xor`
 
 Creates an array that is the symmetric difference of the provided arrays.
