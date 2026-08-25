@@ -4,26 +4,6 @@ Dollar.zipObject(["fred", "barney"], values: [30, 40])
 => ["fred": 30, "barney": 40]
 ```
 
-### partition - `Dollar.partition`
-
-Produces an array of arrays, each containing n elements, each offset by step. Stops after a partition is less than n length.
-
-```swift
-let arr = [1, 2, 3, 4, 5]
-Dollar.partition(arr, n: 2)
-=> [[1, 2], [3, 4]]
-
-Dollar.partition(arr, n: 4, step: 1)
-=> [[1, 2, 3, 4], [2, 3, 4, 5]]
-
-Dollar.partition(arr, n: 4, step: 1, pad: nil)
-=> [[1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5]]
-
-Dollar.partition(arr, n: 4, step: 1, pad: [6, 7, 8])
-=> [[1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5, 6]]
-```
-
-### partitionAll - `Dollar.partitionAll`
 
 Produces an array of arrays, each containing n elements, each offset by step. Continues after a partition is less than n length.
 
