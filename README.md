@@ -1,27 +1,4 @@
-12
-3
-### xor - `Dollar.xor`
-
-Creates an array that is the symmetric difference of the provided arrays.
-
-```swift
-Dollar.xor([1, 2, 3], [5, 2, 1, 4])
-=> [3, 4, 5]
-```
-
-### zip - `Dollar.zip`
-
-Creates an array of grouped elements, the first of which contains the first elements of the given arrays.
-
-```swift
-Dollar.zip(["fred", "barney"], [30, 40], [true, false]) as [NSObject] 
-=> [["fred", 30, true], ["barney", 40, false]]
-```
-
-### zipObject - `Dollar.zipObject`
-
-Creates an object composed from arrays of keys and values.
-
+123
 ```swift
 Dollar.zipObject(["fred", "barney"], values: [30, 40])
 => ["fred": 30, "barney": 40]
