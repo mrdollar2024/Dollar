@@ -1,28 +1,4 @@
-123
-```swift
-Dollar.zipObject(["fred", "barney"], values: [30, 40])
-=> ["fred": 30, "barney": 40]
-```
-
-
-Produces an array of arrays, each containing n elements, each offset by step. Continues after a partition is less than n length.
-
-```swift
-Dollar.partitionAll([1, 2, 3, 4, 5], n: 4, step: 1)
-=> [[1, 2, 3, 4], [2, 3, 4, 5], [3, 4, 5], [4, 5], [5]]
-```
-
-### partitionBy - `Dollar.partitionBy`
-
-Applies a function to each element in array, splitting it each time the function returns a new value.
-
-```swift
-Dollar.partitionBy([1, 2, 3, 4, 5]) { $0 % 2 == 0 }
-=> [[1], [2, 4], [3, 5], [6]]
-
-Dollar.partitionBy([1, 7, 3, 6, 10, 12]) { $0 % 3 }
-=> [[1, 7], [3, 6], [10], [12]]
-```
+fghnfg
 
 ## Dictionary ##
 
