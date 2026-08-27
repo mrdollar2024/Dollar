@@ -1,27 +1,6 @@
-fghnfg
-
-## Dictionary ##
-
-### keys - `Dollar.keys`
-
-Creates an array of keys given a dictionary.
-
-```swift
-Dollar.keys(["Dog": 1, "Cat": 2])
-=> ["Dog", "Cat"]
-```
-
-### values - `Dollar.values`
-
-Creates an array of values given a dictionary
-
-```swift
-Dollar.values(["Dog": 1, "Cat": 2])
-=> [1, 2]
-```
-
-### merge - `Dollar.merge`
-
+sdf
+sdfsd
+f
 Merges all of the dictionaries together and the latter dictionary overrides the value at a given key
 
 ```swift
