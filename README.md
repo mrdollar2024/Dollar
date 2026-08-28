@@ -1,19 +1,4 @@
-1
-2
-3
-
-Creates a shallow clone of a dictionary excluding the specified keys.
-
-```swift
-Dollar.omit(["Dog": 1, "Cat": 2, "Cow": 3, "Sheep": 4], keys: "Cat", "Dog")
-=> ["Cow": 3, "Sheep": 4]
-```
-
-## Object ##
-
-### tap - `Dollar.tap`
-
-Invokes interceptor with the object and then returns object.
+ then returns object.
 
 ```swift
 var beatle = Car(name: "Fusca")
