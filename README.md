@@ -1,22 +1,4 @@
- then returns object.
-
-```swift
-var beatle = Car(name: "Fusca")
-Dollar.tap(beatle, {$0.name = "Beatle"}).color = "Blue"
-```
-
-## Function ##
-
-### after - `Dollar.after`
-
-Creates a function that executes passed function only after being called n times.
-
-```swift
-var saves = ["profile", "settings"];
-let asyncSave = { (function: () -> ()?) in
-   function() 
-   // Saving right away for testing 
-   // but in real world would be async
+tyutu
 }
 var isDone = false
 var completeCallback = Dollar.after(saves.count) {
