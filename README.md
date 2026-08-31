@@ -1,14 +1,4 @@
-tyutu
-}
-var isDone = false
-var completeCallback = Dollar.after(saves.count) {
-   isDone = true
-}
-for elem in saves {
-   asyncSave(completeCallback)
-}
-isDone 
-=> true
+74
 ```
 
 ### bind - `Dollar.bind`
