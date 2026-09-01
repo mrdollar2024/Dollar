@@ -1,20 +1,4 @@
-74
-```
-
-### bind - `Dollar.bind`
-
-Creates a function that, when called, invokes func with the binding of arguments provided.
-
-```swift
-var helloWorldFunc = Dollar.bind({(T...) in
-  T[0] + " " + T[1] + " from " + T[2] 
-}, "Hello", "World", "Swift")
-helloWorldFunc() 
-=> "Hello World from Swift"
-
-helloWorldFunc = Dollar.bind({ $0 + " World" }, "Hello")
-helloWorldFunc()
-=> "Hello World"
+56
 
 helloWorldFunc = Dollar.bind({ $0 + $1 + " World" }, "Hello ", "Great")
 helloWorldFunc()
