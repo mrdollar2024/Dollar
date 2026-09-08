@@ -1,11 +1,4 @@
-
-
-Compose two or more functions where the return value of the first function is passed into the next function. Useful when chaining functions and returns a function that can be called with variadic argument values or an array of values as input
-
-```swift
-let double = { (params: Int...) -> [Int] in
-  return Dollar.map(params) { $0 * 2 }
-}
+3
 let subtractTen = { (params: Int...) -> [Int] in
   return Dollar.map(params) { $0 - 10 }
 }
