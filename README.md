@@ -1,6 +1,4 @@
-3
-let subtractTen = { (params: Int...) -> [Int] in
-  return Dollar.map(params) { $0 - 10 }
+ar.map(params) { $0 - 10 }
 }
 let doubleSubtractTen = Dollar.compose(double, subtractTen)
 doubleSubtractTen(5, 6, 7)
