@@ -1,11 +1,4 @@
-ar.map(params) { $0 - 10 }
-}
-let doubleSubtractTen = Dollar.compose(double, subtractTen)
-doubleSubtractTen(5, 6, 7)
-=> [0, 2, 4]
 
-let f = Dollar.compose({ (arr: [Int]) -> [Int] in
-  Dollar.map(arr) { $0 + 1 }
 }, { (arr: [Int]) -> [Int] in
   Dollar.map(arr) { $0 * 2 }
 })
