@@ -1,12 +1,4 @@
 
-}, { (arr: [Int]) -> [Int] in
-  Dollar.map(arr) { $0 * 2 }
-})
-f([1, 2])
-=> [4, 6]
-```
-
-### curry - `Dollar.curry`
 
 Returns a function which when invoked either executes the function returning its result, if all function arguments have been provided, or returns another function that accepts one more argument of the remaining function arguments until all arguments are supplied. This is useful for making partial function as seen in these examples.
 
