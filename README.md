@@ -1,9 +1,4 @@
 
-
-addTenAnd(10)(10)
-=> 30
-```
-
 ### id - `Dollar.id`
 
 The identify function which simply returns the argument its given.
