@@ -1,8 +1,4 @@
 
-### id - `Dollar.id`
-
-The identify function which simply returns the argument its given.
-
 ```swift
 Dollar.id("Hello World from Swift")
 => "Hello World from Swift"
