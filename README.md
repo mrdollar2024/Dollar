@@ -1,7 +1,4 @@
-
-```swift
-Dollar.id("Hello World from Swift")
-=> "Hello World from Swift"
+ Swift"
 ```
 
 ### memoize - `Dollar.memoize`
