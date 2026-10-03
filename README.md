@@ -1,19 +1,4 @@
- Swift"
-```
 
-### memoize - `Dollar.memoize`
-
-Returns a memoized function to improve performance by caching recursive function values.
-
-```swift
-var times = 0 // to test memoization
-
-let fibMemo = Dollar.memoize { (fib: (Int -> Int), val: Int) -> Int in
-  times += 1
-  return val == 1 || val == 0 ? 1 : fib(val - 1) + fib(val - 2)
-}
-
-let x = fibMemo(5)
 times
 => 6
 
