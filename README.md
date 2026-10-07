@@ -1,6 +1,4 @@
 
-times
-=> 6
 
 times = 0
 let y = fibMemo(5)
