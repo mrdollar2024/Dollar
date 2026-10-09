@@ -1,12 +1,4 @@
 
-
-times = 0
-let y = fibMemo(5)
-times
-=> 0
-
-times = 0
-let z = fibMemo(6)
 times
 => 1
 ```
