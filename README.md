@@ -1,8 +1,4 @@
 
-times
-=> 1
-```
-
 ### noop - `Dollar.noop`
 
 A no-operation function.
