@@ -1,12 +1,4 @@
 
-### noop - `Dollar.noop`
-
-A no-operation function.
-
-```swift
-Dollar.noop() 
-=> nil
-```
 
 ### now - `Dollar.now`
 
